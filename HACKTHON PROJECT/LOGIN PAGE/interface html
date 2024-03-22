@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Revolution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Learning Revolution</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About E-Learning Revolution</h2>
+            <p>E-Learning Revolution is a cutting-edge platform that aims to revolutionize online learning experiences by prioritizing student engagement and offering personalized learning paths.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Interactive Multimedia Content Creation Tools</li>
+                <li>Gamified Learning Modules</li>
+                <li>Adaptive Learning Algorithms</li>
+                <li>Collaborative Learning Spaces</li>
+                <li>Real-time Feedback Mechanisms</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"E-Learning Revolution has completely transformed my learning experience. The interactive content and personalized approach make studying enjoyable and effective."</p>
+                <p>- John Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"I never thought online learning could be this engaging! The gamified modules keep me motivated to learn and achieve my goals."</p>
+                <p>- Jane Smith</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-Learning Revolution</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
